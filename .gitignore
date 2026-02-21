@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# FAISS index
+vectorstore/
+*.faiss
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

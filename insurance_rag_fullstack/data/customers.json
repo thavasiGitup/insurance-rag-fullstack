@@ -1,0 +1,2442 @@
+[
+  {
+    "customer_id": "CUST-1",
+    "name": "Customer 1",
+    "age": 64,
+    "email": "customer1@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-1-0",
+        "policy_type": "Home",
+        "coverage_amount": 487103,
+        "premium": 891,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-1-1",
+        "policy_type": "Life",
+        "coverage_amount": 137824,
+        "premium": 214,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-1-2",
+        "policy_type": "Home",
+        "coverage_amount": 419357,
+        "premium": 835,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-2",
+    "name": "Customer 2",
+    "age": 68,
+    "email": "customer2@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-2-0",
+        "policy_type": "Life",
+        "coverage_amount": 301121,
+        "premium": 1608,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-2-1",
+        "policy_type": "Life",
+        "coverage_amount": 141053,
+        "premium": 1691,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-2-2",
+        "policy_type": "Life",
+        "coverage_amount": 258584,
+        "premium": 350,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-3",
+    "name": "Customer 3",
+    "age": 63,
+    "email": "customer3@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-3-0",
+        "policy_type": "Life",
+        "coverage_amount": 207591,
+        "premium": 553,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-4",
+    "name": "Customer 4",
+    "age": 59,
+    "email": "customer4@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-4-0",
+        "policy_type": "Life",
+        "coverage_amount": 265510,
+        "premium": 1781,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-4-1",
+        "policy_type": "Auto",
+        "coverage_amount": 67236,
+        "premium": 499,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-4-2",
+        "policy_type": "Health",
+        "coverage_amount": 373538,
+        "premium": 1611,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-5",
+    "name": "Customer 5",
+    "age": 30,
+    "email": "customer5@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-5-0",
+        "policy_type": "Home",
+        "coverage_amount": 421020,
+        "premium": 504,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-5-1",
+        "policy_type": "Auto",
+        "coverage_amount": 75197,
+        "premium": 285,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-5-2",
+        "policy_type": "Life",
+        "coverage_amount": 352539,
+        "premium": 473,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-6",
+    "name": "Customer 6",
+    "age": 27,
+    "email": "customer6@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-6-0",
+        "policy_type": "Home",
+        "coverage_amount": 452197,
+        "premium": 398,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-6-1",
+        "policy_type": "Life",
+        "coverage_amount": 281039,
+        "premium": 401,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-6-2",
+        "policy_type": "Auto",
+        "coverage_amount": 152960,
+        "premium": 1796,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-7",
+    "name": "Customer 7",
+    "age": 70,
+    "email": "customer7@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-7-0",
+        "policy_type": "Auto",
+        "coverage_amount": 43394,
+        "premium": 1902,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-7-1",
+        "policy_type": "Home",
+        "coverage_amount": 84543,
+        "premium": 1243,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-8",
+    "name": "Customer 8",
+    "age": 38,
+    "email": "customer8@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-8-0",
+        "policy_type": "Health",
+        "coverage_amount": 330977,
+        "premium": 604,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-9",
+    "name": "Customer 9",
+    "age": 74,
+    "email": "customer9@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-9-0",
+        "policy_type": "Home",
+        "coverage_amount": 231520,
+        "premium": 1178,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-9-1",
+        "policy_type": "Home",
+        "coverage_amount": 94118,
+        "premium": 1167,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-9-2",
+        "policy_type": "Travel",
+        "coverage_amount": 266862,
+        "premium": 1217,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-10",
+    "name": "Customer 10",
+    "age": 50,
+    "email": "customer10@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-10-0",
+        "policy_type": "Health",
+        "coverage_amount": 401929,
+        "premium": 1586,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-10-1",
+        "policy_type": "Auto",
+        "coverage_amount": 44588,
+        "premium": 492,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-11",
+    "name": "Customer 11",
+    "age": 39,
+    "email": "customer11@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-11-0",
+        "policy_type": "Health",
+        "coverage_amount": 361792,
+        "premium": 1150,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-11-1",
+        "policy_type": "Auto",
+        "coverage_amount": 464467,
+        "premium": 843,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-12",
+    "name": "Customer 12",
+    "age": 42,
+    "email": "customer12@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-12-0",
+        "policy_type": "Life",
+        "coverage_amount": 296318,
+        "premium": 401,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-12-1",
+        "policy_type": "Life",
+        "coverage_amount": 17340,
+        "premium": 697,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-13",
+    "name": "Customer 13",
+    "age": 49,
+    "email": "customer13@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-13-0",
+        "policy_type": "Life",
+        "coverage_amount": 40144,
+        "premium": 641,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-13-1",
+        "policy_type": "Health",
+        "coverage_amount": 169060,
+        "premium": 1895,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-14",
+    "name": "Customer 14",
+    "age": 35,
+    "email": "customer14@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-14-0",
+        "policy_type": "Home",
+        "coverage_amount": 453124,
+        "premium": 983,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-15",
+    "name": "Customer 15",
+    "age": 50,
+    "email": "customer15@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-15-0",
+        "policy_type": "Travel",
+        "coverage_amount": 87940,
+        "premium": 530,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-15-1",
+        "policy_type": "Travel",
+        "coverage_amount": 41436,
+        "premium": 519,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-15-2",
+        "policy_type": "Health",
+        "coverage_amount": 400738,
+        "premium": 243,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-16",
+    "name": "Customer 16",
+    "age": 64,
+    "email": "customer16@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-16-0",
+        "policy_type": "Home",
+        "coverage_amount": 194132,
+        "premium": 1921,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-17",
+    "name": "Customer 17",
+    "age": 60,
+    "email": "customer17@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-17-0",
+        "policy_type": "Travel",
+        "coverage_amount": 495124,
+        "premium": 691,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-17-1",
+        "policy_type": "Travel",
+        "coverage_amount": 386910,
+        "premium": 575,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-18",
+    "name": "Customer 18",
+    "age": 48,
+    "email": "customer18@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-18-0",
+        "policy_type": "Health",
+        "coverage_amount": 344147,
+        "premium": 1410,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-19",
+    "name": "Customer 19",
+    "age": 39,
+    "email": "customer19@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-19-0",
+        "policy_type": "Travel",
+        "coverage_amount": 120180,
+        "premium": 1183,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-19-1",
+        "policy_type": "Travel",
+        "coverage_amount": 161724,
+        "premium": 1205,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-20",
+    "name": "Customer 20",
+    "age": 29,
+    "email": "customer20@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-20-0",
+        "policy_type": "Life",
+        "coverage_amount": 158077,
+        "premium": 744,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-20-1",
+        "policy_type": "Travel",
+        "coverage_amount": 29682,
+        "premium": 1138,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-20-2",
+        "policy_type": "Auto",
+        "coverage_amount": 11183,
+        "premium": 1020,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-21",
+    "name": "Customer 21",
+    "age": 72,
+    "email": "customer21@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-21-0",
+        "policy_type": "Auto",
+        "coverage_amount": 210648,
+        "premium": 798,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-21-1",
+        "policy_type": "Travel",
+        "coverage_amount": 278155,
+        "premium": 1545,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-22",
+    "name": "Customer 22",
+    "age": 72,
+    "email": "customer22@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-22-0",
+        "policy_type": "Home",
+        "coverage_amount": 399096,
+        "premium": 857,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-22-1",
+        "policy_type": "Travel",
+        "coverage_amount": 336798,
+        "premium": 283,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-22-2",
+        "policy_type": "Health",
+        "coverage_amount": 309182,
+        "premium": 270,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-23",
+    "name": "Customer 23",
+    "age": 71,
+    "email": "customer23@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-23-0",
+        "policy_type": "Life",
+        "coverage_amount": 458137,
+        "premium": 1158,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-23-1",
+        "policy_type": "Auto",
+        "coverage_amount": 405582,
+        "premium": 966,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-24",
+    "name": "Customer 24",
+    "age": 74,
+    "email": "customer24@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-24-0",
+        "policy_type": "Auto",
+        "coverage_amount": 81922,
+        "premium": 1111,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-24-1",
+        "policy_type": "Health",
+        "coverage_amount": 50324,
+        "premium": 1870,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-25",
+    "name": "Customer 25",
+    "age": 54,
+    "email": "customer25@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-25-0",
+        "policy_type": "Life",
+        "coverage_amount": 195854,
+        "premium": 820,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-25-1",
+        "policy_type": "Life",
+        "coverage_amount": 358748,
+        "premium": 1561,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-25-2",
+        "policy_type": "Life",
+        "coverage_amount": 452572,
+        "premium": 393,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-26",
+    "name": "Customer 26",
+    "age": 52,
+    "email": "customer26@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-26-0",
+        "policy_type": "Health",
+        "coverage_amount": 435564,
+        "premium": 1702,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-27",
+    "name": "Customer 27",
+    "age": 44,
+    "email": "customer27@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-27-0",
+        "policy_type": "Health",
+        "coverage_amount": 112715,
+        "premium": 1134,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-27-1",
+        "policy_type": "Auto",
+        "coverage_amount": 443457,
+        "premium": 1500,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-27-2",
+        "policy_type": "Home",
+        "coverage_amount": 323383,
+        "premium": 377,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-28",
+    "name": "Customer 28",
+    "age": 37,
+    "email": "customer28@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-28-0",
+        "policy_type": "Auto",
+        "coverage_amount": 268818,
+        "premium": 859,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-28-1",
+        "policy_type": "Home",
+        "coverage_amount": 141299,
+        "premium": 1090,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-28-2",
+        "policy_type": "Home",
+        "coverage_amount": 323452,
+        "premium": 1558,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-29",
+    "name": "Customer 29",
+    "age": 39,
+    "email": "customer29@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-29-0",
+        "policy_type": "Auto",
+        "coverage_amount": 337685,
+        "premium": 508,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-29-1",
+        "policy_type": "Travel",
+        "coverage_amount": 459032,
+        "premium": 575,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-30",
+    "name": "Customer 30",
+    "age": 68,
+    "email": "customer30@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-30-0",
+        "policy_type": "Home",
+        "coverage_amount": 322522,
+        "premium": 561,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-30-1",
+        "policy_type": "Life",
+        "coverage_amount": 100424,
+        "premium": 889,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-30-2",
+        "policy_type": "Home",
+        "coverage_amount": 110389,
+        "premium": 423,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-31",
+    "name": "Customer 31",
+    "age": 32,
+    "email": "customer31@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-31-0",
+        "policy_type": "Travel",
+        "coverage_amount": 95497,
+        "premium": 1457,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-32",
+    "name": "Customer 32",
+    "age": 66,
+    "email": "customer32@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-32-0",
+        "policy_type": "Home",
+        "coverage_amount": 33923,
+        "premium": 1216,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-32-1",
+        "policy_type": "Life",
+        "coverage_amount": 38007,
+        "premium": 684,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-32-2",
+        "policy_type": "Life",
+        "coverage_amount": 65176,
+        "premium": 1698,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-33",
+    "name": "Customer 33",
+    "age": 50,
+    "email": "customer33@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-33-0",
+        "policy_type": "Travel",
+        "coverage_amount": 424698,
+        "premium": 1514,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-34",
+    "name": "Customer 34",
+    "age": 49,
+    "email": "customer34@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-34-0",
+        "policy_type": "Auto",
+        "coverage_amount": 83696,
+        "premium": 806,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-34-1",
+        "policy_type": "Health",
+        "coverage_amount": 84075,
+        "premium": 1080,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-34-2",
+        "policy_type": "Home",
+        "coverage_amount": 420431,
+        "premium": 671,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-35",
+    "name": "Customer 35",
+    "age": 35,
+    "email": "customer35@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-35-0",
+        "policy_type": "Travel",
+        "coverage_amount": 421455,
+        "premium": 856,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-35-1",
+        "policy_type": "Travel",
+        "coverage_amount": 280729,
+        "premium": 1839,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-36",
+    "name": "Customer 36",
+    "age": 49,
+    "email": "customer36@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-36-0",
+        "policy_type": "Life",
+        "coverage_amount": 189823,
+        "premium": 526,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-37",
+    "name": "Customer 37",
+    "age": 31,
+    "email": "customer37@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-37-0",
+        "policy_type": "Home",
+        "coverage_amount": 114669,
+        "premium": 1827,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-37-1",
+        "policy_type": "Travel",
+        "coverage_amount": 369650,
+        "premium": 1453,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-38",
+    "name": "Customer 38",
+    "age": 49,
+    "email": "customer38@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-38-0",
+        "policy_type": "Home",
+        "coverage_amount": 201400,
+        "premium": 581,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-39",
+    "name": "Customer 39",
+    "age": 38,
+    "email": "customer39@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-39-0",
+        "policy_type": "Travel",
+        "coverage_amount": 327587,
+        "premium": 1989,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-39-1",
+        "policy_type": "Home",
+        "coverage_amount": 22222,
+        "premium": 590,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-39-2",
+        "policy_type": "Travel",
+        "coverage_amount": 431297,
+        "premium": 618,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-40",
+    "name": "Customer 40",
+    "age": 43,
+    "email": "customer40@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-40-0",
+        "policy_type": "Travel",
+        "coverage_amount": 446325,
+        "premium": 1574,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-40-1",
+        "policy_type": "Home",
+        "coverage_amount": 257691,
+        "premium": 515,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-40-2",
+        "policy_type": "Health",
+        "coverage_amount": 155389,
+        "premium": 1987,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-41",
+    "name": "Customer 41",
+    "age": 58,
+    "email": "customer41@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-41-0",
+        "policy_type": "Home",
+        "coverage_amount": 169831,
+        "premium": 1875,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-41-1",
+        "policy_type": "Health",
+        "coverage_amount": 494960,
+        "premium": 1988,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-42",
+    "name": "Customer 42",
+    "age": 47,
+    "email": "customer42@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-42-0",
+        "policy_type": "Auto",
+        "coverage_amount": 456167,
+        "premium": 750,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-42-1",
+        "policy_type": "Auto",
+        "coverage_amount": 10339,
+        "premium": 270,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-43",
+    "name": "Customer 43",
+    "age": 59,
+    "email": "customer43@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-43-0",
+        "policy_type": "Home",
+        "coverage_amount": 331637,
+        "premium": 1330,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-44",
+    "name": "Customer 44",
+    "age": 44,
+    "email": "customer44@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-44-0",
+        "policy_type": "Home",
+        "coverage_amount": 228698,
+        "premium": 1032,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-44-1",
+        "policy_type": "Health",
+        "coverage_amount": 17480,
+        "premium": 1109,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-44-2",
+        "policy_type": "Auto",
+        "coverage_amount": 403682,
+        "premium": 385,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-45",
+    "name": "Customer 45",
+    "age": 73,
+    "email": "customer45@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-45-0",
+        "policy_type": "Home",
+        "coverage_amount": 66910,
+        "premium": 711,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-46",
+    "name": "Customer 46",
+    "age": 59,
+    "email": "customer46@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-46-0",
+        "policy_type": "Auto",
+        "coverage_amount": 257256,
+        "premium": 367,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-46-1",
+        "policy_type": "Health",
+        "coverage_amount": 137919,
+        "premium": 788,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-46-2",
+        "policy_type": "Health",
+        "coverage_amount": 67876,
+        "premium": 639,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-47",
+    "name": "Customer 47",
+    "age": 46,
+    "email": "customer47@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-47-0",
+        "policy_type": "Life",
+        "coverage_amount": 355397,
+        "premium": 708,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-47-1",
+        "policy_type": "Travel",
+        "coverage_amount": 130054,
+        "premium": 1167,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-48",
+    "name": "Customer 48",
+    "age": 52,
+    "email": "customer48@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-48-0",
+        "policy_type": "Life",
+        "coverage_amount": 373902,
+        "premium": 758,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-48-1",
+        "policy_type": "Home",
+        "coverage_amount": 346396,
+        "premium": 676,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-49",
+    "name": "Customer 49",
+    "age": 54,
+    "email": "customer49@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-49-0",
+        "policy_type": "Travel",
+        "coverage_amount": 70965,
+        "premium": 927,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-49-1",
+        "policy_type": "Travel",
+        "coverage_amount": 11552,
+        "premium": 1324,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-49-2",
+        "policy_type": "Travel",
+        "coverage_amount": 34349,
+        "premium": 211,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-50",
+    "name": "Customer 50",
+    "age": 40,
+    "email": "customer50@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-50-0",
+        "policy_type": "Health",
+        "coverage_amount": 455576,
+        "premium": 896,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-51",
+    "name": "Customer 51",
+    "age": 60,
+    "email": "customer51@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-51-0",
+        "policy_type": "Health",
+        "coverage_amount": 20106,
+        "premium": 846,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-51-1",
+        "policy_type": "Health",
+        "coverage_amount": 181977,
+        "premium": 360,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-51-2",
+        "policy_type": "Home",
+        "coverage_amount": 338185,
+        "premium": 854,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-52",
+    "name": "Customer 52",
+    "age": 31,
+    "email": "customer52@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-52-0",
+        "policy_type": "Health",
+        "coverage_amount": 460362,
+        "premium": 604,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-52-1",
+        "policy_type": "Home",
+        "coverage_amount": 266876,
+        "premium": 1980,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-53",
+    "name": "Customer 53",
+    "age": 44,
+    "email": "customer53@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-53-0",
+        "policy_type": "Auto",
+        "coverage_amount": 66157,
+        "premium": 1584,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-53-1",
+        "policy_type": "Health",
+        "coverage_amount": 17337,
+        "premium": 1701,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-53-2",
+        "policy_type": "Life",
+        "coverage_amount": 435766,
+        "premium": 1865,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-54",
+    "name": "Customer 54",
+    "age": 24,
+    "email": "customer54@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-54-0",
+        "policy_type": "Travel",
+        "coverage_amount": 366591,
+        "premium": 504,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-55",
+    "name": "Customer 55",
+    "age": 68,
+    "email": "customer55@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-55-0",
+        "policy_type": "Auto",
+        "coverage_amount": 225624,
+        "premium": 276,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-55-1",
+        "policy_type": "Health",
+        "coverage_amount": 402929,
+        "premium": 618,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-55-2",
+        "policy_type": "Health",
+        "coverage_amount": 487089,
+        "premium": 978,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-56",
+    "name": "Customer 56",
+    "age": 22,
+    "email": "customer56@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-56-0",
+        "policy_type": "Home",
+        "coverage_amount": 139783,
+        "premium": 457,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-57",
+    "name": "Customer 57",
+    "age": 63,
+    "email": "customer57@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-57-0",
+        "policy_type": "Life",
+        "coverage_amount": 168523,
+        "premium": 1129,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-57-1",
+        "policy_type": "Auto",
+        "coverage_amount": 224667,
+        "premium": 733,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-58",
+    "name": "Customer 58",
+    "age": 37,
+    "email": "customer58@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-58-0",
+        "policy_type": "Travel",
+        "coverage_amount": 147554,
+        "premium": 1087,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-58-1",
+        "policy_type": "Auto",
+        "coverage_amount": 90632,
+        "premium": 723,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-58-2",
+        "policy_type": "Travel",
+        "coverage_amount": 390710,
+        "premium": 1711,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-59",
+    "name": "Customer 59",
+    "age": 25,
+    "email": "customer59@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-59-0",
+        "policy_type": "Health",
+        "coverage_amount": 444581,
+        "premium": 268,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-59-1",
+        "policy_type": "Auto",
+        "coverage_amount": 70861,
+        "premium": 1806,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-60",
+    "name": "Customer 60",
+    "age": 69,
+    "email": "customer60@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-60-0",
+        "policy_type": "Auto",
+        "coverage_amount": 17919,
+        "premium": 512,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-60-1",
+        "policy_type": "Auto",
+        "coverage_amount": 86261,
+        "premium": 816,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-61",
+    "name": "Customer 61",
+    "age": 47,
+    "email": "customer61@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-61-0",
+        "policy_type": "Life",
+        "coverage_amount": 233990,
+        "premium": 714,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-62",
+    "name": "Customer 62",
+    "age": 34,
+    "email": "customer62@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-62-0",
+        "policy_type": "Life",
+        "coverage_amount": 494712,
+        "premium": 1663,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-63",
+    "name": "Customer 63",
+    "age": 70,
+    "email": "customer63@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-63-0",
+        "policy_type": "Auto",
+        "coverage_amount": 409027,
+        "premium": 241,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-63-1",
+        "policy_type": "Home",
+        "coverage_amount": 37475,
+        "premium": 763,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-64",
+    "name": "Customer 64",
+    "age": 48,
+    "email": "customer64@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-64-0",
+        "policy_type": "Auto",
+        "coverage_amount": 193280,
+        "premium": 1527,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-65",
+    "name": "Customer 65",
+    "age": 54,
+    "email": "customer65@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-65-0",
+        "policy_type": "Travel",
+        "coverage_amount": 15329,
+        "premium": 1604,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-65-1",
+        "policy_type": "Auto",
+        "coverage_amount": 480348,
+        "premium": 634,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-65-2",
+        "policy_type": "Travel",
+        "coverage_amount": 55276,
+        "premium": 270,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-66",
+    "name": "Customer 66",
+    "age": 75,
+    "email": "customer66@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-66-0",
+        "policy_type": "Travel",
+        "coverage_amount": 468431,
+        "premium": 1588,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-67",
+    "name": "Customer 67",
+    "age": 27,
+    "email": "customer67@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-67-0",
+        "policy_type": "Home",
+        "coverage_amount": 450355,
+        "premium": 1355,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-67-1",
+        "policy_type": "Home",
+        "coverage_amount": 422680,
+        "premium": 973,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-68",
+    "name": "Customer 68",
+    "age": 72,
+    "email": "customer68@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-68-0",
+        "policy_type": "Home",
+        "coverage_amount": 360212,
+        "premium": 1252,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-69",
+    "name": "Customer 69",
+    "age": 31,
+    "email": "customer69@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-69-0",
+        "policy_type": "Auto",
+        "coverage_amount": 193687,
+        "premium": 1195,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-70",
+    "name": "Customer 70",
+    "age": 50,
+    "email": "customer70@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-70-0",
+        "policy_type": "Home",
+        "coverage_amount": 407499,
+        "premium": 603,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-70-1",
+        "policy_type": "Auto",
+        "coverage_amount": 239390,
+        "premium": 882,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-71",
+    "name": "Customer 71",
+    "age": 48,
+    "email": "customer71@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-71-0",
+        "policy_type": "Home",
+        "coverage_amount": 187679,
+        "premium": 898,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-71-1",
+        "policy_type": "Health",
+        "coverage_amount": 218755,
+        "premium": 1438,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-72",
+    "name": "Customer 72",
+    "age": 66,
+    "email": "customer72@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-72-0",
+        "policy_type": "Life",
+        "coverage_amount": 228802,
+        "premium": 1851,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-73",
+    "name": "Customer 73",
+    "age": 62,
+    "email": "customer73@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-73-0",
+        "policy_type": "Home",
+        "coverage_amount": 146977,
+        "premium": 704,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-74",
+    "name": "Customer 74",
+    "age": 56,
+    "email": "customer74@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-74-0",
+        "policy_type": "Travel",
+        "coverage_amount": 375637,
+        "premium": 898,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-75",
+    "name": "Customer 75",
+    "age": 39,
+    "email": "customer75@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-75-0",
+        "policy_type": "Home",
+        "coverage_amount": 333044,
+        "premium": 1229,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-76",
+    "name": "Customer 76",
+    "age": 75,
+    "email": "customer76@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-76-0",
+        "policy_type": "Auto",
+        "coverage_amount": 163902,
+        "premium": 1414,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-77",
+    "name": "Customer 77",
+    "age": 42,
+    "email": "customer77@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-77-0",
+        "policy_type": "Auto",
+        "coverage_amount": 283715,
+        "premium": 1326,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-77-1",
+        "policy_type": "Travel",
+        "coverage_amount": 244343,
+        "premium": 1208,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-78",
+    "name": "Customer 78",
+    "age": 30,
+    "email": "customer78@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-78-0",
+        "policy_type": "Travel",
+        "coverage_amount": 73181,
+        "premium": 274,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-78-1",
+        "policy_type": "Auto",
+        "coverage_amount": 174149,
+        "premium": 1000,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-78-2",
+        "policy_type": "Life",
+        "coverage_amount": 238771,
+        "premium": 1760,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-79",
+    "name": "Customer 79",
+    "age": 44,
+    "email": "customer79@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-79-0",
+        "policy_type": "Health",
+        "coverage_amount": 132813,
+        "premium": 287,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-79-1",
+        "policy_type": "Life",
+        "coverage_amount": 417958,
+        "premium": 1743,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-80",
+    "name": "Customer 80",
+    "age": 42,
+    "email": "customer80@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-80-0",
+        "policy_type": "Health",
+        "coverage_amount": 132347,
+        "premium": 768,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-80-1",
+        "policy_type": "Home",
+        "coverage_amount": 290223,
+        "premium": 825,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-81",
+    "name": "Customer 81",
+    "age": 64,
+    "email": "customer81@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-81-0",
+        "policy_type": "Auto",
+        "coverage_amount": 109849,
+        "premium": 281,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-81-1",
+        "policy_type": "Auto",
+        "coverage_amount": 220503,
+        "premium": 1520,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-81-2",
+        "policy_type": "Home",
+        "coverage_amount": 93450,
+        "premium": 355,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-82",
+    "name": "Customer 82",
+    "age": 72,
+    "email": "customer82@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-82-0",
+        "policy_type": "Health",
+        "coverage_amount": 496567,
+        "premium": 717,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-82-1",
+        "policy_type": "Travel",
+        "coverage_amount": 345109,
+        "premium": 1651,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-83",
+    "name": "Customer 83",
+    "age": 57,
+    "email": "customer83@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-83-0",
+        "policy_type": "Home",
+        "coverage_amount": 368065,
+        "premium": 1464,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-83-1",
+        "policy_type": "Auto",
+        "coverage_amount": 183780,
+        "premium": 1752,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-83-2",
+        "policy_type": "Home",
+        "coverage_amount": 244545,
+        "premium": 631,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-84",
+    "name": "Customer 84",
+    "age": 58,
+    "email": "customer84@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-84-0",
+        "policy_type": "Auto",
+        "coverage_amount": 287367,
+        "premium": 285,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-84-1",
+        "policy_type": "Home",
+        "coverage_amount": 21292,
+        "premium": 775,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-84-2",
+        "policy_type": "Travel",
+        "coverage_amount": 429335,
+        "premium": 1497,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-85",
+    "name": "Customer 85",
+    "age": 66,
+    "email": "customer85@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-85-0",
+        "policy_type": "Life",
+        "coverage_amount": 450626,
+        "premium": 1348,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-85-1",
+        "policy_type": "Health",
+        "coverage_amount": 207481,
+        "premium": 1473,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-86",
+    "name": "Customer 86",
+    "age": 62,
+    "email": "customer86@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-86-0",
+        "policy_type": "Travel",
+        "coverage_amount": 201942,
+        "premium": 1697,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-86-1",
+        "policy_type": "Home",
+        "coverage_amount": 373323,
+        "premium": 653,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-87",
+    "name": "Customer 87",
+    "age": 24,
+    "email": "customer87@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-87-0",
+        "policy_type": "Health",
+        "coverage_amount": 477528,
+        "premium": 1148,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-88",
+    "name": "Customer 88",
+    "age": 26,
+    "email": "customer88@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-88-0",
+        "policy_type": "Health",
+        "coverage_amount": 249139,
+        "premium": 1284,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-89",
+    "name": "Customer 89",
+    "age": 55,
+    "email": "customer89@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-89-0",
+        "policy_type": "Travel",
+        "coverage_amount": 354110,
+        "premium": 682,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-89-1",
+        "policy_type": "Auto",
+        "coverage_amount": 492000,
+        "premium": 1106,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-90",
+    "name": "Customer 90",
+    "age": 37,
+    "email": "customer90@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-90-0",
+        "policy_type": "Life",
+        "coverage_amount": 389168,
+        "premium": 1456,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-90-1",
+        "policy_type": "Auto",
+        "coverage_amount": 297155,
+        "premium": 1025,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-90-2",
+        "policy_type": "Travel",
+        "coverage_amount": 456707,
+        "premium": 584,
+        "currency": "USD",
+        "status": "Active"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-91",
+    "name": "Customer 91",
+    "age": 29,
+    "email": "customer91@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-91-0",
+        "policy_type": "Auto",
+        "coverage_amount": 492136,
+        "premium": 547,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-91-1",
+        "policy_type": "Life",
+        "coverage_amount": 192819,
+        "premium": 895,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-91-2",
+        "policy_type": "Life",
+        "coverage_amount": 378207,
+        "premium": 999,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-92",
+    "name": "Customer 92",
+    "age": 60,
+    "email": "customer92@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-92-0",
+        "policy_type": "Travel",
+        "coverage_amount": 376321,
+        "premium": 1515,
+        "currency": "USD",
+        "status": "Expired"
+      },
+      {
+        "policy_id": "POL-92-1",
+        "policy_type": "Travel",
+        "coverage_amount": 360363,
+        "premium": 896,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-92-2",
+        "policy_type": "Health",
+        "coverage_amount": 341204,
+        "premium": 598,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-93",
+    "name": "Customer 93",
+    "age": 61,
+    "email": "customer93@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-93-0",
+        "policy_type": "Travel",
+        "coverage_amount": 181202,
+        "premium": 1724,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-93-1",
+        "policy_type": "Life",
+        "coverage_amount": 101469,
+        "premium": 853,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-94",
+    "name": "Customer 94",
+    "age": 37,
+    "email": "customer94@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-94-0",
+        "policy_type": "Travel",
+        "coverage_amount": 238231,
+        "premium": 1934,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-94-1",
+        "policy_type": "Health",
+        "coverage_amount": 222338,
+        "premium": 721,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-94-2",
+        "policy_type": "Auto",
+        "coverage_amount": 473232,
+        "premium": 374,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-95",
+    "name": "Customer 95",
+    "age": 55,
+    "email": "customer95@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-95-0",
+        "policy_type": "Travel",
+        "coverage_amount": 17893,
+        "premium": 904,
+        "currency": "USD",
+        "status": "Active"
+      },
+      {
+        "policy_id": "POL-95-1",
+        "policy_type": "Travel",
+        "coverage_amount": 452413,
+        "premium": 915,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-96",
+    "name": "Customer 96",
+    "age": 72,
+    "email": "customer96@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-96-0",
+        "policy_type": "Auto",
+        "coverage_amount": 259555,
+        "premium": 507,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-97",
+    "name": "Customer 97",
+    "age": 39,
+    "email": "customer97@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-97-0",
+        "policy_type": "Travel",
+        "coverage_amount": 482931,
+        "premium": 463,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-97-1",
+        "policy_type": "Home",
+        "coverage_amount": 433780,
+        "premium": 210,
+        "currency": "USD",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-98",
+    "name": "Customer 98",
+    "age": 65,
+    "email": "customer98@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-98-0",
+        "policy_type": "Life",
+        "coverage_amount": 34361,
+        "premium": 1132,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-98-1",
+        "policy_type": "Home",
+        "coverage_amount": 458849,
+        "premium": 1517,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-99",
+    "name": "Customer 99",
+    "age": 58,
+    "email": "customer99@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-99-0",
+        "policy_type": "Auto",
+        "coverage_amount": 250070,
+        "premium": 1499,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-99-1",
+        "policy_type": "Home",
+        "coverage_amount": 479906,
+        "premium": 420,
+        "currency": "USD",
+        "status": "Pending"
+      },
+      {
+        "policy_id": "POL-99-2",
+        "policy_type": "Travel",
+        "coverage_amount": 255146,
+        "premium": 1580,
+        "currency": "USD",
+        "status": "Cancelled"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-100",
+    "name": "Customer 100",
+    "age": 74,
+    "email": "customer100@mail.com",
+    "policies": [
+      {
+        "policy_id": "POL-100-0",
+        "policy_type": "Health",
+        "coverage_amount": 335651,
+        "premium": 1284,
+        "currency": "USD",
+        "status": "Cancelled"
+      },
+      {
+        "policy_id": "POL-100-1",
+        "policy_type": "Life",
+        "coverage_amount": 278011,
+        "premium": 321,
+        "currency": "USD",
+        "status": "Expired"
+      }
+    ]
+  }
+]

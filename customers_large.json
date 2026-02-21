@@ -1,0 +1,121 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "personal_info": {
+      "first_name": "John",
+      "last_name": "Smith",
+      "date_of_birth": "1982-05-14",
+      "gender": "Male",
+      "email": "john.smith1@email.com",
+      "phone": "+1-555-1001"
+    },
+    "address": {
+      "street": "101 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "account": {
+      "customer_since": "2018-03-10",
+      "risk_score": 72,
+      "loyalty_tier": "Gold"
+    },
+    "policies": [
+      {
+        "policy_id": "POL-001-1",
+        "policy_type": "Health",
+        "coverage_amount": 250000,
+        "premium": 450,
+        "currency": "USD",
+        "start_date": "2023-01-01",
+        "end_date": "2024-01-01",
+        "status": "Active",
+        "claims": []
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-002",
+    "personal_info": {
+      "first_name": "Emma",
+      "last_name": "Johnson",
+      "date_of_birth": "1990-08-22",
+      "gender": "Female",
+      "email": "emma.johnson2@email.com",
+      "phone": "+1-555-1002"
+    },
+    "address": {
+      "street": "102 Main St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60007",
+      "country": "USA"
+    },
+    "account": {
+      "customer_since": "2020-07-18",
+      "risk_score": 45,
+      "loyalty_tier": "Silver"
+    },
+    "policies": [
+      {
+        "policy_id": "POL-002-1",
+        "policy_type": "Auto",
+        "coverage_amount": 50000,
+        "premium": 320,
+        "currency": "USD",
+        "start_date": "2022-06-01",
+        "end_date": "2023-06-01",
+        "status": "Expired",
+        "claims": [
+          {
+            "claim_id": "CLM-002-1",
+            "claim_date": "2022-09-10",
+            "claim_amount": 4200,
+            "claim_status": "Approved"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "customer_id": "CUST-003",
+    "personal_info": {
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "date_of_birth": "1975-12-02",
+      "gender": "Male",
+      "email": "michael.brown3@email.com",
+      "phone": "+1-555-1003"
+    },
+    "address": {
+      "street": "103 Main St",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75001",
+      "country": "USA"
+    },
+    "account": {
+      "customer_since": "2015-02-11",
+      "risk_score": 81,
+      "loyalty_tier": "Platinum"
+    },
+    "policies": [
+      {
+        "policy_id": "POL-003-1",
+        "policy_type": "Life",
+        "coverage_amount": 500000,
+        "premium": 780,
+        "currency": "USD",
+        "start_date": "2021-01-01",
+        "end_date": "2031-01-01",
+        "status": "Active",
+        "claims": []
+      }
+    ]
+  }
+
+  // --- DATA CONTINUES ---
+
+]
