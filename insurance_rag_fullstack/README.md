@@ -1,11 +1,26 @@
+# Insurance RAG Fullstack
 
-SETUP:
+A full-stack Retrieval-Augmented Generation (RAG) system for querying insurance customer and policy data.
 
-1. python create_project.py
-2. cd insurance_rag_fullstack
-3. Create backend/.env and paste your OpenAI key
-4. cd backend
-5. pip install -r requirements.txt
-6. python ingest.py
-7. uvicorn main:app --reload
-8. Open frontend/index.html
+## 🚀 Features
+
+- FastAPI backend
+- FAISS vector search
+- OpenAI embeddings
+- Chat-based frontend
+- Local JSON dataset
+- REST API endpoint
+
+## 🏗 Architecture
+
+Frontend → FastAPI → Embedding → FAISS → Context → LLM
+
+## ⚙️ Setup
+
+```bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python ingest.py
+uvicorn main:app --reload
