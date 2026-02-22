@@ -1,70 +1,69 @@
 import os
 import json
-import random
 import pickle
 import faiss
 import numpy as np
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
-from dotenv import load_dotenv
 from openai import OpenAI
+from azure.storage.blob import BlobServiceClient
 import uvicorn
 
-# =============================
-# LOAD ENV
-# =============================
+# ==============================
+# ENV VARIABLES
+# ==============================
 
-load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+AZURE_STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+BLOB_CONTAINER_NAME = os.getenv("BLOB_CONTAINER_NAME")
+BLOB_FILE_NAME = os.getenv("BLOB_FILE_NAME")
 
-if not os.getenv("OPENAI_API_KEY"):
-    raise Exception("❌ OPENAI_API_KEY not found in .env file")
+if not OPENAI_API_KEY:
+    raise Exception("OPENAI_API_KEY not set")
 
-client = OpenAI()
+if not AZURE_STORAGE_CONNECTION_STRING:
+    raise Exception("AZURE_STORAGE_CONNECTION_STRING not set")
 
-# =============================
-# GENERATE SAMPLE DATA
-# =============================
+# ==============================
+# CLIENTS
+# ==============================
 
-DATA_FILE = "customers.json"
-INDEX_FILE = "index.faiss"
-META_FILE = "meta.pkl"
+client = OpenAI(api_key=OPENAI_API_KEY)
+blob_service_client = BlobServiceClient.from_connection_string(
+    AZURE_STORAGE_CONNECTION_STRING
+)
 
-def generate_data(n=100):
-    policy_types = ["Health", "Auto", "Home", "Life", "Travel"]
-    statuses = ["Active", "Expired", "Cancelled", "Pending"]
+# ==============================
+# FASTAPI
+# ==============================
 
-    customers = []
+app = FastAPI()
 
-    for i in range(1, n + 1):
-        policies = []
-        for j in range(random.randint(1, 3)):
-            policies.append({
-                "policy_id": f"POL-{i}-{j}",
-                "policy_type": random.choice(policy_types),
-                "coverage_amount": random.randint(10000, 500000),
-                "premium": random.randint(200, 2000),
-                "status": random.choice(statuses)
-            })
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-        customers.append({
-            "customer_id": f"CUST-{i}",
-            "name": f"Customer {i}",
-            "age": random.randint(21, 75),
-            "email": f"customer{i}@mail.com",
-            "policies": policies
-        })
+class Query(BaseModel):
+    question: str
 
-    return customers
+# ==============================
+# LOAD DATA FROM AZURE BLOB
+# ==============================
 
-if not os.path.exists(DATA_FILE):
-    with open(DATA_FILE, "w") as f:
-        json.dump(generate_data(100), f, indent=2)
+def load_data_from_blob():
+    container_client = blob_service_client.get_container_client(BLOB_CONTAINER_NAME)
+    blob_client = container_client.get_blob_client(BLOB_FILE_NAME)
+    blob_data = blob_client.download_blob().readall()
+    return json.loads(blob_data)
 
-# =============================
+# ==============================
 # EMBEDDING
-# =============================
+# ==============================
 
 def embed(text):
     response = client.embeddings.create(
@@ -88,61 +87,37 @@ def flatten(customer):
 
     return text
 
-# =============================
-# CREATE INDEX (FIRST RUN)
-# =============================
+# ==============================
+# BUILD INDEX ON STARTUP
+# ==============================
 
-if not os.path.exists(INDEX_FILE):
+print("Loading data from Azure Blob...")
+data = load_data_from_blob()
 
-    print("Creating embeddings and FAISS index...")
+documents = [flatten(c) for c in data]
 
-    with open(DATA_FILE) as f:
-        data = json.load(f)
+print("Creating embeddings...")
 
-    documents = [flatten(c) for c in data]
-    embeddings = np.array([embed(doc) for doc in documents])
+embeddings = np.array([embed(doc) for doc in documents])
 
-    dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
-    index.add(embeddings)
+dimension = embeddings.shape[1]
+index = faiss.IndexFlatL2(dimension)
+index.add(embeddings)
 
-    faiss.write_index(index, INDEX_FILE)
+print("FAISS index created successfully.")
 
-    with open(META_FILE, "wb") as f:
-        pickle.dump(documents, f)
-
-    print("Index created successfully.")
-
-# =============================
-# LOAD INDEX
-# =============================
-
-index = faiss.read_index(INDEX_FILE)
-
-with open(META_FILE, "rb") as f:
-    documents = pickle.load(f)
-
-# =============================
-# FASTAPI APP
-# =============================
-
-app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-class Query(BaseModel):
-    question: str
+# ==============================
+# RETRIEVAL
+# ==============================
 
 def retrieve(query, k=5):
-    vec = embed(query)
-    D, I = index.search(np.array([vec]), k)
+    vector = embed(query)
+    D, I = index.search(np.array([vector]), k)
     return [documents[i] for i in I[0]]
+
+# ==============================
+# API ENDPOINT
+# ==============================
 
 @app.post("/ask")
 def ask(query: Query):
@@ -150,7 +125,7 @@ def ask(query: Query):
 
     prompt = f"""
 You are an insurance assistant.
-Answer ONLY from the context below.
+Answer ONLY using the provided context.
 
 Context:
 {context}
@@ -166,15 +141,11 @@ Question:
 
     return {"answer": response.choices[0].message.content}
 
-# =============================
-# SIMPLE FRONTEND (SERVED FROM BACKEND)
-# =============================
 
-@app.get("/", response_class=HTMLResponse)
-def homepage():
-    return """
-    <html>
-    <head>
-        <title>Insurance RAG</title>
-        <style>
-            body { font
+# ==============================
+# HEALTH CHECK
+# ==============================
+
+@app.get("/")
+def health():
+    return {"status": "Azure RAG running"}
